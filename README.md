@@ -1,7 +1,5 @@
 - 👋 Hi, I'm @Aamanuel01
 - 👀 I'm interested in everything inside the earth
 - 🌱 I'm currently learning life
-- 💞 I'm looking to collaborate on ...
-- 📫 How to reach me anywhere
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: mathematics
