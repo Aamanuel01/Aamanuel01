@@ -2,4 +2,4 @@
 - 👀 I'm interested in everything inside the earth
 - 🌱 I'm currently learning life
 - 😄 Pronouns: he/him
-- ⚡ Fun fact: 
+- ⚡ Fun fact:
