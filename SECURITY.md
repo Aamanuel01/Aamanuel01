@@ -2,13 +2,13 @@
 
 ## Supported Versions
 
-Version|Supported
+Ver|Status
 -|-
 5.1.x|✅
 5.0.x|❌
 4.0.x|✅
-< 4.0|❌
+<4.0|❌
 
 ## Reporting a Vulnerability
 
-Please contact the maintainer to report a vulnerability.
+Contact the maintainer to report a vulnerability.
