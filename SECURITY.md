@@ -1,11 +1,11 @@
 # Security Policy
 
-## Versions
+## Status
 
 Ver|Status
 -|-
-5.1, 4.0|✅
-5.0, <4.0|❌
+5.1,4|✅
+5,<4|❌
 
-## Reporting
-Report vulnerabilities to the maintainer.
+## Report
+Report to maintainer.
