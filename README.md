@@ -1,4 +1,4 @@
 - 👋 @Aamanuel01
-- 👀 Everything inside the earth
+- 👀 Everything inside Earth
 - 🌱 Learning life
 - 😄 he/him
