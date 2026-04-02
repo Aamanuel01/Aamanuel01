@@ -1,11 +1,6 @@
-# Security Policy
-
+# Security
 ## Status
-
-Ver|Status
--|-
-5.1,4|✅
-5,<4|❌
-
-## Report
-Report to maintainer.
+✅ 5.1,4
+❌ 5,<4
+## Contact
+@Aamanuel01<!--⚡-->
