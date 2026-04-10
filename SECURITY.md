@@ -1,11 +1,5 @@
-# Security Policy
-
-## Status
-
-Ver|Status
--|-
-5.1,4|✅
-5,<4|❌
-
-## Report
-Report to maintainer.
+# Security
+Status:
+5.1,4:✅
+5,<4:❌
+Report:maintainer
