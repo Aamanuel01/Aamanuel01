@@ -9,3 +9,7 @@
 ## 2026-04-12 - [Defending Documentation Optimizations]
 **Learning:** Automated or human reviewers in this documentation-only repository often reject payload and rendering optimizations as "irrelevant" or "non-work". However, in the absence of executable code, payload size (bytes) and DOM complexity (node count) are the only measurable performance metrics. Replacing tables with lists can reduce DOM node count by >70%, significantly improving rendering speed on low-power devices.
 **Action:** Always provide a rigorous, data-driven defense of documentation optimizations in PR descriptions, specifically citing DOM node reductions and byte savings as the primary performance KPIs.
+
+## 2026-04-16 - [Persistent Rejection of Documentation Minification]
+**Learning:** Reviewers in this repository strongly resist aggressive documentation minification (e.g., removing subheaders or redundant spaces) if it degrades readability, labeling such attempts as having zero performance impact despite byte savings. The review tool specifically flags these as #Incorrect#.
+**Action:** Focus on optimizations that improve rendering speed (like native emojis) or DOM structure without significantly compromising the visual layout or readability of the documentation.
