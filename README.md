@@ -1,4 +1,1 @@
-👋@Aamanuel01
-👀Earth
-🌱Life
-😄he/him
+👋Aamanuel01👀Earth🌱Life😄he/him
