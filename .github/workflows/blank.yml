@@ -1,0 +1,36 @@
+# Basic CI workflow for this repository.
+
+name: Basic CI checks on main
+
+# Controls when the CI workflow will run.
+on:
+  # Run CI on pushes to "main".
+  push:
+    branches: [ "main" ]
+  # Run CI for pull requests targeting "main".
+  pull_request:
+    branches: [ "main" ]
+
+  # Allow this workflow to be run manually from the Actions tab.
+  workflow_dispatch:
+
+jobs:
+  # Run basic CI checks.
+  basic-ci-checks:
+    # The type of runner that the job will run on.
+    runs-on: ubuntu-latest
+
+    # Steps executed as part of the basic CI checks.
+    steps:
+      # Check out the repository code.
+      - uses: actions/checkout@v4
+
+      # Simple placeholder step to verify the workflow runs.
+      - name: Print greeting (placeholder CI step)
+        run: echo Hello, world!
+
+      # Placeholder for build/test commands to be added later.
+      - name: Print placeholder build/test commands
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
