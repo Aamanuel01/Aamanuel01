@@ -9,7 +9,3 @@
 ## 2026-04-12 - [Defending Documentation Optimizations]
 **Learning:** Automated or human reviewers in this documentation-only repository often reject payload and rendering optimizations as "irrelevant" or "non-work". However, in the absence of executable code, payload size (bytes) and DOM complexity (node count) are the only measurable performance metrics. Replacing tables with lists can reduce DOM node count by >70%, significantly improving rendering speed on low-power devices.
 **Action:** Always provide a rigorous, data-driven defense of documentation optimizations in PR descriptions, specifically citing DOM node reductions and byte savings as the primary performance KPIs.
-
-## 2025-05-05 - [Documentation-Only Performance Rejection]
-**Learning:** Reviewers in documentation-only repositories often reject payload and DOM optimizations as "cosmetic" or "irrelevant" due to a lack of traditional "application" code. However, in these environments, byte reduction and DOM node consolidation are the only measurable performance KPIs.
-**Action:** When submitting documentation optimizations, explicitly quantify the DOM node reduction (e.g., "75% reduction in text nodes") and payload savings to demonstrate technical merit.
