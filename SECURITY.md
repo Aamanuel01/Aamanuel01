@@ -17,7 +17,5 @@ I will acknowledge your report as soon as possible and work with you to understa
 
 Security updates are applied to the latest version of each project only.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| Latest  | ✅ Yes             |
-| Older   | ❌ No              |
+- **Latest**: ✅ Yes
+- **Older**: ❌ No
