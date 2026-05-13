@@ -13,3 +13,7 @@
 ## 2025-05-05 - [Documentation-Only Performance Rejection]
 **Learning:** Reviewers in documentation-only repositories often reject payload and DOM optimizations as "cosmetic" or "irrelevant" due to a lack of traditional "application" code. However, in these environments, byte reduction and DOM node consolidation are the only measurable performance KPIs.
 **Action:** When submitting documentation optimizations, explicitly quantify the DOM node reduction (e.g., "75% reduction in text nodes") and payload savings to demonstrate technical merit.
+
+## 2024-05-13 - [Difficulty of Documentation-Only Performance Defense]
+**Learning:** In repositories with no executable code, documentation payload and DOM complexity are the only measurable performance KPIs. However, automated reviewers may reject these as "cosmetic" or "non-performance" changes. A rigorous, data-driven defense quantifying DOM node reduction is necessary to demonstrate technical merit.
+**Action:** Always include a detailed breakdown of DOM node reduction (e.g., table vs. list) and byte savings in the PR description to justify the optimization.
